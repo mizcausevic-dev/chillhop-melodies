@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') && !contains(github.event.head_commit.message, 'pages admin') && !contains(github.event.head_commit.message, 'Deploy gh-pages') }}
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') && !contains(github.event.head_commit.message, 'pages admin') && !contains(github.event.head_commit.message, 'Deploy gh-pages') && !contains(github.event.head_commit.message, 'Measure pages') }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
