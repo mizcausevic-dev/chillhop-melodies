@@ -108,7 +108,7 @@ MELODY = {
     "s05": {
         "a": [
             (0, 0, 480, 72), (0, 720, 360, 76), (0, 1320, 480, 79),
-            (1, 240, 720, 81), (1, 1440, 960, 76),
+            (1, 240, 720, 81), (1, 1440, 360, 76),
             (2, 0, 480, 74), (2, 720, 360, 77), (2, 1320, 480, 72),
             (3, 960, 1440, 67),
             (4, 0, 240, 76), (4, 480, 480, 79), (4, 1440, 240, 83), (4, 2160, 720, 81),
@@ -289,22 +289,38 @@ def chord_fifth(root, pool):
 
 
 def place_keys(part, regions):
-    for start, length, pitches in regions:
+    for region in regions:
+        b_pitches = None
+        if len(region) == 4:
+            start, length, pitches, b_pitches = region
+        else:
+            start, length, pitches = region
         if part.variation == "a":
             duration = length * BAR - 480
             for pitch in pitches:
                 part.add(start * BAR, duration, pitch, 62)
         else:
+            use = pitches[:3] if b_pitches is None else b_pitches
             for bar_index in range(start, start + length):
-                for pitch in pitches[:3]:
+                for pitch in use:
                     part.add(bar_index * BAR + 960, 960, pitch, 54)
 
 
 def place_bass(part, roots):
     pool = set(part.study["pitch_classes"])
+    study_id = part.study["id"]
     for start, length, root in roots:
         for bar_index in range(start, start + length):
-            if part.variation == "a":
+            if part.variation == "a" and study_id == "s06":
+                upper = chord_fifth(root, pool)
+                part.add(bar_index * BAR + 960, 480, root, 74)
+                part.add(bar_index * BAR + 1920, 240, upper, 90)
+                part.add(bar_index * BAR + 2880, 720, root, 60)
+            elif part.variation == "a" and study_id == "s07":
+                upper = chord_fifth(root, pool)
+                part.add(bar_index * BAR, 1440, root, 72)
+                part.add(bar_index * BAR + 2400, 960, upper, 80)
+            elif part.variation == "a":
                 part.add(bar_index * BAR, 720, root, 86)
                 part.add(bar_index * BAR + 1920, 480, root, 68)
             else:
@@ -319,20 +335,20 @@ def studies():
         {**common, "id": "s01", "slug": "s01-second-sixteenth", "title": "Second Sixteenth", "bpm": 78,
          "tonic": "D", "tonal_reference": "D", "collection_name": "D dorian",
          "pitch_classes": [0, 2, 4, 5, 7, 9, 11], "seed": 7801,
-         "harmonic_rhythm": "Four bars of Dm, two of G, two of Dm.",
-         "changes": ["Dm", "G", "Dm"], "change_bars": [4, 2, 2],
+         "harmonic_rhythm": "Four bars of Dm7, two of G, two of Dm7.",
+         "changes": ["Dm7", "G", "Dm7"], "change_bars": [4, 2, 2],
          "phrases": [
              {"name": "Late call", "start_bar": 0, "bars": 2},
-             {"name": "Third", "start_bar": 2, "bars": 2},
+             {"name": "Reply", "start_bar": 2, "bars": 2},
              {"name": "Answer", "start_bar": 4, "bars": 2},
              {"name": "Landing", "start_bar": 6, "bars": 2},
          ],
-         "identity": "The call starts a sixteenth late and answers a third higher. Variation B moves onto the downbeat, shortens the attacks, and sits lower.",
+         "identity": "The call starts a sixteenth late. Bar 2 tops a minor third lower, at G5. The later answer starts a fifth higher, on A5. Variation B moves onto the downbeat, shortens the attacks, and sits lower.",
          "limitations": "Pair melody A with keys A and bass A. The late sixteenth is the pocket. It is not a random offset.",
-         "voicing": "Melody is one note at a time, from D4 up to B5.",
+         "voicing": "Melody is one note at a time, from D4 up to B5. Keys A is Dm7: D, F, A, C. Keys B on those bars keeps D, F, and C.",
          "layering": "Keys and bass are reference files. They are not written into the melody file.",
          "accent": "Velocity steps 78, 78, 84, 84, 90, 96, 88, 104 across the eight bars.",
-         "keys": [((0, 4, [50, 57, 60, 65])), ((4, 2, [55, 59, 62, 67])), ((6, 2, [50, 57, 60, 65]))],
+         "keys": [(0, 4, [50, 57, 60, 65], [50, 65, 60]), (4, 2, [55, 59, 62, 67]), (6, 2, [50, 57, 60, 65], [50, 65, 60])],
          "bass": [(0, 4, 38), (4, 2, 43), (6, 2, 38)]},
         {**common, "id": "s02", "slug": "s02-and-of-two", "title": "And of Two", "bpm": 84,
          "tonic": "A", "tonal_reference": "A", "collection_name": "A natural minor",
@@ -354,7 +370,7 @@ def studies():
          "bass": [(0, 2, 33), (2, 2, 41), (4, 2, 36), (6, 2, 33)]},
         {**common, "id": "s03", "slug": "s03-held-answer", "title": "Held Answer", "bpm": 72,
          "tonic": "F", "tonal_reference": "F", "collection_name": "F major",
-         "pitch_classes": [0, 2, 3, 4, 5, 7, 9, 10], "seed": 7203,
+         "pitch_classes": [0, 2, 4, 5, 7, 9, 10], "seed": 7203,
          "harmonic_rhythm": "Two bars each: F, Bb, C, F.",
          "changes": ["F", "Bb", "C", "F"], "change_bars": [2, 2, 2, 2],
          "phrases": [
@@ -430,12 +446,12 @@ def studies():
          "harmonic_rhythm": "Two bars each: Bb, Eb, F, Bb.",
          "changes": ["Bb", "Eb", "F", "Bb"], "change_bars": [2, 2, 2, 2],
          "phrases": [
-             {"name": "Half", "start_bar": 0, "bars": 2},
+             {"name": "Call", "start_bar": 0, "bars": 2},
              {"name": "Color", "start_bar": 2, "bars": 2},
              {"name": "Pickup", "start_bar": 4, "bars": 2},
              {"name": "Cadence", "start_bar": 6, "bars": 2},
          ],
-         "identity": "Half-note calls at 70 BPM, with a three-note pickup only once. Variation B breaks the holds into short notes around A and C.",
+         "identity": "The opening calls are dotted quarters at 70 BPM. Bar 2 is a half note. A three-note pickup happens only once. Variation B breaks those holds into short notes around A and C.",
          "limitations": "70 BPM is the slow end of this pack. The container is still 8 bars so the preview stays under 28 seconds.",
          "voicing": "Melody is monophonic from Bb3 to Bb5. Eb is a color tone, not a new key.",
          "layering": "The Eb and F shells are keys references.",
@@ -523,6 +539,20 @@ def assert_identities(parts):
     }
 
 
+def assert_no_transposed_bass(parts):
+    bass = [part for part in parts if part["role"] == "bass-reference" and part["variation"] == "a"]
+    seen = {}
+    for part in bass:
+        base = part["notes"][0]["pitch"]
+        shape = tuple(
+            (note["performed_start"], note["duration"], note["velocity"], note["pitch"] - base)
+            for note in part["notes"]
+        )
+        if shape in seen:
+            raise ValueError(f"{part['id']} copies {seen[shape]} at a constant interval")
+        seen[shape] = part["id"]
+
+
 def assert_departures(catalog_studies, parts):
     found = set()
     for part in parts:
@@ -576,6 +606,7 @@ def compose():
     for study in catalog_studies:
         parts.extend(build_study(study))
     assert_departures(catalog_studies, parts)
+    assert_no_transposed_bass(parts)
     identity = assert_identities(parts)
     for study in catalog_studies:
         study["departures"] = departure_lines(study, parts)

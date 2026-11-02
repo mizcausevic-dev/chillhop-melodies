@@ -4,7 +4,7 @@ Container lengths, tempos, and collections were fixed before note generation. No
 
 ## s01 Second Sixteenth
 
-The call starts a sixteenth late and answers a third higher. Variation B moves onto the downbeat, shortens the attacks, and sits lower.
+The call starts a sixteenth late. Bar 2 tops a minor third lower, at G5. The later answer starts a fifth higher, on A5. Variation B moves onto the downbeat, shortens the attacks, and sits lower.
 
 Limitations: Pair melody A with keys A and bass A. The late sixteenth is the pocket. It is not a random offset.
 
@@ -40,7 +40,7 @@ Limitations: C#5 is outside E natural minor. It is one short note in variation B
 
 ## s07 Soft Cadence
 
-Half-note calls at 70 BPM, with a three-note pickup only once. Variation B breaks the holds into short notes around A and C.
+The opening calls are dotted quarters at 70 BPM. Bar 2 is a half note. A three-note pickup happens only once. Variation B breaks those holds into short notes around A and C.
 
 Limitations: 70 BPM is the slow end of this pack. The container is still 8 bars so the preview stays under 28 seconds.
 

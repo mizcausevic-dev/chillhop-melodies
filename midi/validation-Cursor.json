@@ -9,7 +9,7 @@
     "tracks": 4
   },
   "catalog_path": "catalog/catalog-Cursor.json",
-  "catalog_sha256": "b916550f1f59e30d5d8db4438a6f23832bad3aa49c78b439fb0fb8e80ee5dbbc",
+  "catalog_sha256": "4fb107310543e8b60570f2bd33d9fb417cf46825595fe42e7ea239cefb72d8e4",
   "errors": [],
   "files": [
     {
@@ -158,7 +158,7 @@
       "requested_bpm": 78,
       "role": "keys-reference",
       "score_agreement": "PASS",
-      "sha256": "db2338bb5d973e19105487c1ff0b8d881c72cbbd0f2515d22c6fc6cfb6a1da3e",
+      "sha256": "162d3885a7370ffb2997730fd9640ea0f1e97234af2741fd99c54f2ea5fe7263",
       "tempo_us": 769231,
       "tracks": 1
     },
@@ -759,7 +759,7 @@
       "requested_bpm": 76,
       "role": "melody",
       "score_agreement": "PASS",
-      "sha256": "d2f33b6079f9e69ecd78ecf0c42067863bdcf9dcb83e8946a0c3a8b945d631c8",
+      "sha256": "fe0df98671c1a5fefc2a3c633741ea8ff52b1e9861f97a22fd2bfc260d243b56",
       "tempo_us": 789474,
       "tracks": 1
     },
@@ -974,14 +974,14 @@
       "tracks": 1
     },
     {
-      "bytes": 219,
+      "bytes": 300,
       "channels": [
         2
       ],
       "checks": {
         "eot": 30720,
         "meter": "4/4",
-        "notes": 16,
+        "notes": 24,
         "overlap": "PASS",
         "parse": "PASS",
         "ppq": 960,
@@ -993,13 +993,13 @@
       "format": 0,
       "max_polyphony": 1,
       "meter": "4/4",
-      "notes": 16,
+      "notes": 24,
       "path": "midi/s06-step-and-leap/bass-a.mid",
       "ppq": 960,
       "requested_bpm": 86,
       "role": "bass-reference",
       "score_agreement": "PASS",
-      "sha256": "0d62838612b2a729d502cddb210e1a4e9f677308bd7fc5f5abe83c2a1babe525",
+      "sha256": "bf74a1e2b2b4052b604b06b8edf1701ecda3b6ce36df17bceb85d773366ecba2",
       "tempo_us": 697674,
       "tracks": 1
     },
@@ -1180,7 +1180,7 @@
       "requested_bpm": 70,
       "role": "bass-reference",
       "score_agreement": "PASS",
-      "sha256": "ef71410cb332a855e6db3c69e8feae2f4e3bc70d5b018dcd56b41f730a53dbab",
+      "sha256": "7d69cd75a6d02c2a2e55911574fe6af04823d333dc96b45c07c46999c278205f",
       "tempo_us": 857143,
       "tracks": 1
     },
@@ -1552,6 +1552,6 @@
     "arrangement musical tracks match the individual files and carry no tempo"
   ],
   "score_path": "score/canonical-score-Cursor.json",
-  "score_sha256": "21abd3e6d067dc3a274c076c3361044d2fbe46e93a992251b65e4cf0a47f1c09",
+  "score_sha256": "e6b87d91942a8d7fad6cae7a9a5ae927d8c63c7bac85add4ba0d82010017289b",
   "validator_version": "1.0.0"
 }
