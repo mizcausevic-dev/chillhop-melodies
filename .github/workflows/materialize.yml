@@ -13,17 +13,14 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Unpack generator
+      - name: Unpack the corrected pack
         run: |
-          curl -fsSL -o source.tar.gz "https://h.uguu.se/aXKVPENu.tar.gz"
-          echo "b562d021c338f79c9a045097e8b05a9d91201d17915ae1a44f58583856eadad1  source.tar.gz" | sha256sum -c -
-          tar -xzf source.tar.gz
+          curl -fsSL -o /tmp/chillhop-fix.tar.gz "https://h.uguu.se/YVhCfHVK.tar.gz"
+          echo "3f89273aaf3746bed70041c7ef46b770fc3971a2c88978a4f9f080cc37fc9b86  /tmp/chillhop-fix.tar.gz" | sha256sum -c -
+          tar -xzf /tmp/chillhop-fix.tar.gz
+          rm -f pages-api-result.txt source.tar.gz
           find . -type d -name __pycache__ -prune -exec rm -rf {} +
           touch .nojekyll
-      - name: Install media tools
-        run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
-      - name: Build pack
-        run: python3 tools/build_pack.py
       - name: Commit delivered files
         run: |
           git config user.name "mizcausevic-dev"
@@ -32,7 +29,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "tree unchanged"
           else
-            git commit -m "Materialize Chillhop Melodies [skip ci]"
+            git commit -m "Publish corrected Chillhop Melodies files [skip ci]"
             git push
           fi
           git push origin HEAD:gh-pages
