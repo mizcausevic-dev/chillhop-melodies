@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') && !contains(github.event.head_commit.message, 'pages admin') }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -29,6 +29,10 @@ jobs:
           git config user.name "mizcausevic-dev"
           git config user.email "mizcausevic-dev@users.noreply.github.com"
           git add -A
-          git commit -m "Materialize Chillhop Melodies [skip ci]"
-          git push
+          if git diff --cached --quiet; then
+            echo "tree unchanged"
+          else
+            git commit -m "Materialize Chillhop Melodies [skip ci]"
+            git push
+          fi
           git push origin HEAD:gh-pages
