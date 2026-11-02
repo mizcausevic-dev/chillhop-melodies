@@ -1,0 +1,1232 @@
+{
+  "arrangement": {
+    "bpm": 78,
+    "container_ticks": 30720,
+    "description": "Study 01 variation A melody with keys reference A and bass reference A. The references are not inside the melody file.",
+    "format": 1,
+    "id": "arrangement-preview-s01a",
+    "meter": "4/4",
+    "path": "midi/arrangement.mid",
+    "tempo_us": 769231,
+    "tracks": [
+      {
+        "channel": null,
+        "name": "Conductor",
+        "source_part": null
+      },
+      {
+        "channel": 0,
+        "name": "Melody",
+        "source_part": "s01.melody.a"
+      },
+      {
+        "channel": 1,
+        "name": "Keys Reference",
+        "source_part": "s01.keys.a"
+      },
+      {
+        "channel": 2,
+        "name": "Bass Reference",
+        "source_part": "s01.bass.a"
+      }
+    ]
+  },
+  "c4": 60,
+  "catalog_version": "1.0.0",
+  "container_choice": "Eight bars for every study. Sixteen bars at 70-95 BPM lasts about 40.4 seconds or longer.",
+  "core_part_count": 16,
+  "generator_version": "1.0.0",
+  "meter": {
+    "bar_ticks": 3840,
+    "denominator": 4,
+    "numerator": 4
+  },
+  "microtiming": "offset is 0; performed_start = nominal_start",
+  "note_policy": "Note-only MIDI. Pocket is the written grid. Offsets are 0. Random jitter, tape dust, and noise are not notes.",
+  "pack_id": "chillhop-melodies",
+  "pack_name": "Chillhop Melodies",
+  "parts": [
+    {
+      "bpm": 78,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "s01.melody.a",
+      "monophonic": true,
+      "notes": 18,
+      "path": "midi/s01-second-sixteenth/melody-a.mid",
+      "role": "melody",
+      "study_id": "s01",
+      "variation": "a"
+    },
+    {
+      "bpm": 78,
+      "channel": 1,
+      "container_bars": 8,
+      "core": false,
+      "id": "s01.keys.a",
+      "monophonic": false,
+      "notes": 12,
+      "path": "midi/s01-second-sixteenth/keys-a.mid",
+      "role": "keys-reference",
+      "study_id": "s01",
+      "variation": "a"
+    },
+    {
+      "bpm": 78,
+      "channel": 2,
+      "container_bars": 8,
+      "core": false,
+      "id": "s01.bass.a",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s01-second-sixteenth/bass-a.mid",
+      "role": "bass-reference",
+      "study_id": "s01",
+      "variation": "a"
+    },
+    {
+      "bpm": 78,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "s01.melody.b",
+      "monophonic": true,
+      "notes": 19,
+      "path": "midi/s01-second-sixteenth/melody-b.mid",
+      "role": "melody",
+      "study_id": "s01",
+      "variation": "b"
+    },
+    {
+      "bpm": 78,
+      "channel": 1,
+      "container_bars": 8,
+      "core": false,
+      "id": "s01.keys.b",
+      "monophonic": false,
+      "notes": 24,
+      "path": "midi/s01-second-sixteenth/keys-b.mid",
+      "role": "keys-reference",
+      "study_id": "s01",
+      "variation": "b"
+    },
+    {
+      "bpm": 78,
+      "channel": 2,
+      "container_bars": 8,
+      "core": false,
+      "id": "s01.bass.b",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s01-second-sixteenth/bass-b.mid",
+      "role": "bass-reference",
+      "study_id": "s01",
+      "variation": "b"
+    },
+    {
+      "bpm": 84,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "s02.melody.a",
+      "monophonic": true,
+      "notes": 19,
+      "path": "midi/s02-and-of-two/melody-a.mid",
+      "role": "melody",
+      "study_id": "s02",
+      "variation": "a"
+    },
+    {
+      "bpm": 84,
+      "channel": 1,
+      "container_bars": 8,
+      "core": false,
+      "id": "s02.keys.a",
+      "monophonic": false,
+      "notes": 16,
+      "path": "midi/s02-and-of-two/keys-a.mid",
+      "role": "keys-reference",
+      "study_id": "s02",
+      "variation": "a"
+    },
+    {
+      "bpm": 84,
+      "channel": 2,
+      "container_bars": 8,
+      "core": false,
+      "id": "s02.bass.a",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s02-and-of-two/bass-a.mid",
+      "role": "bass-reference",
+      "study_id": "s02",
+      "variation": "a"
+    },
+    {
+      "bpm": 84,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "s02.melody.b",
+      "monophonic": true,
+      "notes": 20,
+      "path": "midi/s02-and-of-two/melody-b.mid",
+      "role": "melody",
+      "study_id": "s02",
+      "variation": "b"
+    },
+    {
+      "bpm": 84,
+      "channel": 1,
+      "container_bars": 8,
+      "core": false,
+      "id": "s02.keys.b",
+      "monophonic": false,
+      "notes": 24,
+      "path": "midi/s02-and-of-two/keys-b.mid",
+      "role": "keys-reference",
+      "study_id": "s02",
+      "variation": "b"
+    },
+    {
+      "bpm": 84,
+      "channel": 2,
+      "container_bars": 8,
+      "core": false,
+      "id": "s02.bass.b",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s02-and-of-two/bass-b.mid",
+      "role": "bass-reference",
+      "study_id": "s02",
+      "variation": "b"
+    },
+    {
+      "bpm": 72,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "s03.melody.a",
+      "monophonic": true,
+      "notes": 17,
+      "path": "midi/s03-held-answer/melody-a.mid",
+      "role": "melody",
+      "study_id": "s03",
+      "variation": "a"
+    },
+    {
+      "bpm": 72,
+      "channel": 1,
+      "container_bars": 8,
+      "core": false,
+      "id": "s03.keys.a",
+      "monophonic": false,
+      "notes": 16,
+      "path": "midi/s03-held-answer/keys-a.mid",
+      "role": "keys-reference",
+      "study_id": "s03",
+      "variation": "a"
+    },
+    {
+      "bpm": 72,
+      "channel": 2,
+      "container_bars": 8,
+      "core": false,
+      "id": "s03.bass.a",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s03-held-answer/bass-a.mid",
+      "role": "bass-reference",
+      "study_id": "s03",
+      "variation": "a"
+    },
+    {
+      "bpm": 72,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "s03.melody.b",
+      "monophonic": true,
+      "notes": 21,
+      "path": "midi/s03-held-answer/melody-b.mid",
+      "role": "melody",
+      "study_id": "s03",
+      "variation": "b"
+    },
+    {
+      "bpm": 72,
+      "channel": 1,
+      "container_bars": 8,
+      "core": false,
+      "id": "s03.keys.b",
+      "monophonic": false,
+      "notes": 24,
+      "path": "midi/s03-held-answer/keys-b.mid",
+      "role": "keys-reference",
+      "study_id": "s03",
+      "variation": "b"
+    },
+    {
+      "bpm": 72,
+      "channel": 2,
+      "container_bars": 8,
+      "core": false,
+      "id": "s03.bass.b",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s03-held-answer/bass-b.mid",
+      "role": "bass-reference",
+      "study_id": "s03",
+      "variation": "b"
+    },
+    {
+      "bpm": 90,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "s04.melody.a",
+      "monophonic": true,
+      "notes": 19,
+      "path": "midi/s04-fifth-then-rest/melody-a.mid",
+      "role": "melody",
+      "study_id": "s04",
+      "variation": "a"
+    },
+    {
+      "bpm": 90,
+      "channel": 1,
+      "container_bars": 8,
+      "core": false,
+      "id": "s04.keys.a",
+      "monophonic": false,
+      "notes": 16,
+      "path": "midi/s04-fifth-then-rest/keys-a.mid",
+      "role": "keys-reference",
+      "study_id": "s04",
+      "variation": "a"
+    },
+    {
+      "bpm": 90,
+      "channel": 2,
+      "container_bars": 8,
+      "core": false,
+      "id": "s04.bass.a",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s04-fifth-then-rest/bass-a.mid",
+      "role": "bass-reference",
+      "study_id": "s04",
+      "variation": "a"
+    },
+    {
+      "bpm": 90,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "s04.melody.b",
+      "monophonic": true,
+      "notes": 21,
+      "path": "midi/s04-fifth-then-rest/melody-b.mid",
+      "role": "melody",
+      "study_id": "s04",
+      "variation": "b"
+    },
+    {
+      "bpm": 90,
+      "channel": 1,
+      "container_bars": 8,
+      "core": false,
+      "id": "s04.keys.b",
+      "monophonic": false,
+      "notes": 24,
+      "path": "midi/s04-fifth-then-rest/keys-b.mid",
+      "role": "keys-reference",
+      "study_id": "s04",
+      "variation": "b"
+    },
+    {
+      "bpm": 90,
+      "channel": 2,
+      "container_bars": 8,
+      "core": false,
+      "id": "s04.bass.b",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s04-fifth-then-rest/bass-b.mid",
+      "role": "bass-reference",
+      "study_id": "s04",
+      "variation": "b"
+    },
+    {
+      "bpm": 76,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "s05.melody.a",
+      "monophonic": true,
+      "notes": 18,
+      "path": "midi/s05-question-rest/melody-a.mid",
+      "role": "melody",
+      "study_id": "s05",
+      "variation": "a"
+    },
+    {
+      "bpm": 76,
+      "channel": 1,
+      "container_bars": 8,
+      "core": false,
+      "id": "s05.keys.a",
+      "monophonic": false,
+      "notes": 16,
+      "path": "midi/s05-question-rest/keys-a.mid",
+      "role": "keys-reference",
+      "study_id": "s05",
+      "variation": "a"
+    },
+    {
+      "bpm": 76,
+      "channel": 2,
+      "container_bars": 8,
+      "core": false,
+      "id": "s05.bass.a",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s05-question-rest/bass-a.mid",
+      "role": "bass-reference",
+      "study_id": "s05",
+      "variation": "a"
+    },
+    {
+      "bpm": 76,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "s05.melody.b",
+      "monophonic": true,
+      "notes": 23,
+      "path": "midi/s05-question-rest/melody-b.mid",
+      "role": "melody",
+      "study_id": "s05",
+      "variation": "b"
+    },
+    {
+      "bpm": 76,
+      "channel": 1,
+      "container_bars": 8,
+      "core": false,
+      "id": "s05.keys.b",
+      "monophonic": false,
+      "notes": 24,
+      "path": "midi/s05-question-rest/keys-b.mid",
+      "role": "keys-reference",
+      "study_id": "s05",
+      "variation": "b"
+    },
+    {
+      "bpm": 76,
+      "channel": 2,
+      "container_bars": 8,
+      "core": false,
+      "id": "s05.bass.b",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s05-question-rest/bass-b.mid",
+      "role": "bass-reference",
+      "study_id": "s05",
+      "variation": "b"
+    },
+    {
+      "bpm": 86,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "s06.melody.a",
+      "monophonic": true,
+      "notes": 21,
+      "path": "midi/s06-step-and-leap/melody-a.mid",
+      "role": "melody",
+      "study_id": "s06",
+      "variation": "a"
+    },
+    {
+      "bpm": 86,
+      "channel": 1,
+      "container_bars": 8,
+      "core": false,
+      "id": "s06.keys.a",
+      "monophonic": false,
+      "notes": 16,
+      "path": "midi/s06-step-and-leap/keys-a.mid",
+      "role": "keys-reference",
+      "study_id": "s06",
+      "variation": "a"
+    },
+    {
+      "bpm": 86,
+      "channel": 2,
+      "container_bars": 8,
+      "core": false,
+      "id": "s06.bass.a",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s06-step-and-leap/bass-a.mid",
+      "role": "bass-reference",
+      "study_id": "s06",
+      "variation": "a"
+    },
+    {
+      "bpm": 86,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "s06.melody.b",
+      "monophonic": true,
+      "notes": 21,
+      "path": "midi/s06-step-and-leap/melody-b.mid",
+      "role": "melody",
+      "study_id": "s06",
+      "variation": "b"
+    },
+    {
+      "bpm": 86,
+      "channel": 1,
+      "container_bars": 8,
+      "core": false,
+      "id": "s06.keys.b",
+      "monophonic": false,
+      "notes": 24,
+      "path": "midi/s06-step-and-leap/keys-b.mid",
+      "role": "keys-reference",
+      "study_id": "s06",
+      "variation": "b"
+    },
+    {
+      "bpm": 86,
+      "channel": 2,
+      "container_bars": 8,
+      "core": false,
+      "id": "s06.bass.b",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s06-step-and-leap/bass-b.mid",
+      "role": "bass-reference",
+      "study_id": "s06",
+      "variation": "b"
+    },
+    {
+      "bpm": 70,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "s07.melody.a",
+      "monophonic": true,
+      "notes": 15,
+      "path": "midi/s07-soft-cadence/melody-a.mid",
+      "role": "melody",
+      "study_id": "s07",
+      "variation": "a"
+    },
+    {
+      "bpm": 70,
+      "channel": 1,
+      "container_bars": 8,
+      "core": false,
+      "id": "s07.keys.a",
+      "monophonic": false,
+      "notes": 16,
+      "path": "midi/s07-soft-cadence/keys-a.mid",
+      "role": "keys-reference",
+      "study_id": "s07",
+      "variation": "a"
+    },
+    {
+      "bpm": 70,
+      "channel": 2,
+      "container_bars": 8,
+      "core": false,
+      "id": "s07.bass.a",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s07-soft-cadence/bass-a.mid",
+      "role": "bass-reference",
+      "study_id": "s07",
+      "variation": "a"
+    },
+    {
+      "bpm": 70,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "s07.melody.b",
+      "monophonic": true,
+      "notes": 23,
+      "path": "midi/s07-soft-cadence/melody-b.mid",
+      "role": "melody",
+      "study_id": "s07",
+      "variation": "b"
+    },
+    {
+      "bpm": 70,
+      "channel": 1,
+      "container_bars": 8,
+      "core": false,
+      "id": "s07.keys.b",
+      "monophonic": false,
+      "notes": 24,
+      "path": "midi/s07-soft-cadence/keys-b.mid",
+      "role": "keys-reference",
+      "study_id": "s07",
+      "variation": "b"
+    },
+    {
+      "bpm": 70,
+      "channel": 2,
+      "container_bars": 8,
+      "core": false,
+      "id": "s07.bass.b",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s07-soft-cadence/bass-b.mid",
+      "role": "bass-reference",
+      "study_id": "s07",
+      "variation": "b"
+    },
+    {
+      "bpm": 94,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "s08.melody.a",
+      "monophonic": true,
+      "notes": 18,
+      "path": "midi/s08-open-space/melody-a.mid",
+      "role": "melody",
+      "study_id": "s08",
+      "variation": "a"
+    },
+    {
+      "bpm": 94,
+      "channel": 1,
+      "container_bars": 8,
+      "core": false,
+      "id": "s08.keys.a",
+      "monophonic": false,
+      "notes": 16,
+      "path": "midi/s08-open-space/keys-a.mid",
+      "role": "keys-reference",
+      "study_id": "s08",
+      "variation": "a"
+    },
+    {
+      "bpm": 94,
+      "channel": 2,
+      "container_bars": 8,
+      "core": false,
+      "id": "s08.bass.a",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s08-open-space/bass-a.mid",
+      "role": "bass-reference",
+      "study_id": "s08",
+      "variation": "a"
+    },
+    {
+      "bpm": 94,
+      "channel": 0,
+      "container_bars": 8,
+      "core": true,
+      "id": "s08.melody.b",
+      "monophonic": true,
+      "notes": 21,
+      "path": "midi/s08-open-space/melody-b.mid",
+      "role": "melody",
+      "study_id": "s08",
+      "variation": "b"
+    },
+    {
+      "bpm": 94,
+      "channel": 1,
+      "container_bars": 8,
+      "core": false,
+      "id": "s08.keys.b",
+      "monophonic": false,
+      "notes": 24,
+      "path": "midi/s08-open-space/keys-b.mid",
+      "role": "keys-reference",
+      "study_id": "s08",
+      "variation": "b"
+    },
+    {
+      "bpm": 94,
+      "channel": 2,
+      "container_bars": 8,
+      "core": false,
+      "id": "s08.bass.b",
+      "monophonic": true,
+      "notes": 16,
+      "path": "midi/s08-open-space/bass-b.mid",
+      "role": "bass-reference",
+      "study_id": "s08",
+      "variation": "b"
+    }
+  ],
+  "pitched_range": [
+    28,
+    86
+  ],
+  "ppq": 960,
+  "preview_part_ids": [
+    "s01.melody.a",
+    "s01.keys.a",
+    "s01.bass.a"
+  ],
+  "range_statement": "Melody is the core, monophonic, MIDI 55 to 86. Keys references use MIDI 40 to 76, at most four notes at once, and are not core. Bass references are monophonic, MIDI 28 to 52, and are not core.",
+  "reference_part_count": 32,
+  "seed_meaning": "Seeds identify studies. Nothing is random.",
+  "stack_warning": "Use either the combined arrangement or the separate parts. Do not stack the part files on top of the combined file.",
+  "stochastic_draws": 0,
+  "studies": [
+    {
+      "accent": "Velocity steps 78, 78, 84, 84, 90, 96, 88, 104 across the eight bars.",
+      "bar_ticks": 3840,
+      "bars": 8,
+      "bpm": 78,
+      "change_bars": [
+        4,
+        2,
+        2
+      ],
+      "changes": [
+        "Dm",
+        "G",
+        "Dm"
+      ],
+      "collection_name": "D dorian",
+      "departures": [],
+      "effective_bpm": 77.99997660000702,
+      "harmonic_rhythm": "Four bars of Dm, two of G, two of Dm.",
+      "id": "s01",
+      "identity": "The call starts a sixteenth late and answers a third higher. Variation B moves onto the downbeat, shortens the attacks, and sits lower.",
+      "layering": "Keys and bass are reference files. They are not written into the melody file.",
+      "limitations": "Pair melody A with keys A and bass A. The late sixteenth is the pocket. It is not a random offset.",
+      "meter": "4/4",
+      "phrases": [
+        {
+          "bars": 2,
+          "name": "Late call",
+          "start_bar": 0
+        },
+        {
+          "bars": 2,
+          "name": "Third",
+          "start_bar": 2
+        },
+        {
+          "bars": 2,
+          "name": "Answer",
+          "start_bar": 4
+        },
+        {
+          "bars": 2,
+          "name": "Landing",
+          "start_bar": 6
+        }
+      ],
+      "pitch_classes": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "requested_seconds": 24.615384615384617,
+      "seed": 7801,
+      "slug": "s01-second-sixteenth",
+      "stochastic_draws": 0,
+      "tempo_us": 769231,
+      "title": "Second Sixteenth",
+      "tonal_reference": "D",
+      "tonic": "D",
+      "voicing": "Melody is one note at a time, from D4 up to B5."
+    },
+    {
+      "accent": "The same eight-bar velocity ladder as the other studies.",
+      "bar_ticks": 3840,
+      "bars": 8,
+      "bpm": 84,
+      "change_bars": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "changes": [
+        "Am",
+        "F",
+        "C",
+        "Am"
+      ],
+      "collection_name": "A natural minor",
+      "departures": [],
+      "effective_bpm": 83.99996640001343,
+      "harmonic_rhythm": "Two bars each: Am, F, C, Am.",
+      "id": "s02",
+      "identity": "The motif waits until the and of two, then gives a short answer. Variation B starts on the downbeat with longer notes and a higher first pitch.",
+      "layering": "The F and C colors live in the keys reference, not in the melody file.",
+      "limitations": "The empty first half of bars 1 and 2 is space for the keys reference, not a missing file.",
+      "meter": "4/4",
+      "phrases": [
+        {
+          "bars": 2,
+          "name": "Wait",
+          "start_bar": 0
+        },
+        {
+          "bars": 2,
+          "name": "Rise",
+          "start_bar": 2
+        },
+        {
+          "bars": 2,
+          "name": "Turn",
+          "start_bar": 4
+        },
+        {
+          "bars": 2,
+          "name": "Low answer",
+          "start_bar": 6
+        }
+      ],
+      "pitch_classes": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "requested_seconds": 22.857142857142858,
+      "seed": 8402,
+      "slug": "s02-and-of-two",
+      "stochastic_draws": 0,
+      "tempo_us": 714286,
+      "title": "And of Two",
+      "tonal_reference": "A",
+      "tonic": "A",
+      "voicing": "Melody stays monophonic between A3 and A5."
+    },
+    {
+      "accent": "The cadence bar is louder than the held call.",
+      "bar_ticks": 3840,
+      "bars": 8,
+      "bpm": 72,
+      "change_bars": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "changes": [
+        "F",
+        "Bb",
+        "C",
+        "F"
+      ],
+      "collection_name": "F major",
+      "departures": [],
+      "effective_bpm": 72.00002880001152,
+      "harmonic_rhythm": "Two bars each: F, Bb, C, F.",
+      "id": "s03",
+      "identity": "A held tone gives way to a three-note answer. Variation B never holds. It uses short notes and leans on Bb.",
+      "layering": "The held keys chord is a reference. It does not share the melody file.",
+      "limitations": "The long notes are written durations. Release tails are not extra notes.",
+      "meter": "4/4",
+      "phrases": [
+        {
+          "bars": 2,
+          "name": "Hold",
+          "start_bar": 0
+        },
+        {
+          "bars": 2,
+          "name": "Reply",
+          "start_bar": 2
+        },
+        {
+          "bars": 2,
+          "name": "Color",
+          "start_bar": 4
+        },
+        {
+          "bars": 2,
+          "name": "Cadence",
+          "start_bar": 6
+        }
+      ],
+      "pitch_classes": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        10
+      ],
+      "requested_seconds": 26.666666666666668,
+      "seed": 7203,
+      "slug": "s03-held-answer",
+      "stochastic_draws": 0,
+      "tempo_us": 833333,
+      "title": "Held Answer",
+      "tonal_reference": "F",
+      "tonic": "F",
+      "voicing": "Melody is monophonic from Bb3 to A5. Keys hold a close shell."
+    },
+    {
+      "accent": "The leap is mid velocity. The last bar of variation A is the peak.",
+      "bar_ticks": 3840,
+      "bars": 8,
+      "bpm": 90,
+      "change_bars": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "changes": [
+        "G",
+        "C",
+        "F",
+        "G"
+      ],
+      "collection_name": "G mixolydian",
+      "departures": [
+        "s04.melody.b pitch 78 is outside G mixolydian and is flagged."
+      ],
+      "effective_bpm": 89.9999550000225,
+      "harmonic_rhythm": "Two bars each: G, C, F, G.",
+      "id": "s04",
+      "identity": "A fifth leap, a rest, then a neighbor. Variation B compresses the leap and uses one flagged F#5.",
+      "layering": "F and C are keys-reference chords. The melody does not carry those shells.",
+      "limitations": "F#5 is outside G mixolydian. It is one sixteenth in variation B, then the line returns to G.",
+      "meter": "4/4",
+      "phrases": [
+        {
+          "bars": 2,
+          "name": "Leap",
+          "start_bar": 0
+        },
+        {
+          "bars": 2,
+          "name": "Neighbor",
+          "start_bar": 2
+        },
+        {
+          "bars": 2,
+          "name": "Fall",
+          "start_bar": 4
+        },
+        {
+          "bars": 2,
+          "name": "Close",
+          "start_bar": 6
+        }
+      ],
+      "pitch_classes": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "requested_seconds": 21.333333333333332,
+      "seed": 9004,
+      "slug": "s04-fifth-then-rest",
+      "stochastic_draws": 0,
+      "tempo_us": 666667,
+      "title": "Fifth Then Rest",
+      "tonal_reference": "G",
+      "tonic": "G",
+      "voicing": "Melody is monophonic. The fifth is a melodic leap, not a keys voicing."
+    },
+    {
+      "accent": "The answer bars sit higher in the velocity ladder than the question.",
+      "bar_ticks": 3840,
+      "bars": 8,
+      "bpm": 76,
+      "change_bars": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "changes": [
+        "C",
+        "Am",
+        "F",
+        "G"
+      ],
+      "collection_name": "C major",
+      "departures": [],
+      "effective_bpm": 75.99996960001216,
+      "harmonic_rhythm": "Two bars each: C, Am, F, G.",
+      "id": "s05",
+      "identity": "The question occupies the first half of the bar and leaves the rest empty. Variation B fills that empty half with a different contour.",
+      "layering": "Am and F are reference chords under the rests.",
+      "limitations": "The empty beats are intentional space. They are not dropped events.",
+      "meter": "4/4",
+      "phrases": [
+        {
+          "bars": 2,
+          "name": "Question",
+          "start_bar": 0
+        },
+        {
+          "bars": 2,
+          "name": "Empty",
+          "start_bar": 2
+        },
+        {
+          "bars": 2,
+          "name": "Answer",
+          "start_bar": 4
+        },
+        {
+          "bars": 2,
+          "name": "Settle",
+          "start_bar": 6
+        }
+      ],
+      "pitch_classes": [
+        0,
+        2,
+        4,
+        5,
+        7,
+        9,
+        11
+      ],
+      "requested_seconds": 25.263157894736842,
+      "seed": 7605,
+      "slug": "s05-question-rest",
+      "stochastic_draws": 0,
+      "tempo_us": 789474,
+      "title": "Question Rest",
+      "tonal_reference": "C",
+      "tonic": "C",
+      "voicing": "Melody is monophonic from G3 to B5."
+    },
+    {
+      "accent": "The held answer is louder than the opening steps.",
+      "bar_ticks": 3840,
+      "bars": 8,
+      "bpm": 86,
+      "change_bars": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "changes": [
+        "Em",
+        "C",
+        "G",
+        "Em"
+      ],
+      "collection_name": "E natural minor",
+      "departures": [
+        "s06.melody.b pitch 73 is outside E natural minor and is flagged."
+      ],
+      "effective_bpm": 86.00005160003096,
+      "harmonic_rhythm": "Two bars each: Em, C, G, Em.",
+      "id": "s06",
+      "identity": "Steps lead to a leap and a hold. Variation B uses longer offbeat notes and one flagged C#5.",
+      "layering": "The C and G references enter while the melody holds or rests.",
+      "limitations": "C#5 is outside E natural minor. It is one short note in variation B.",
+      "meter": "4/4",
+      "phrases": [
+        {
+          "bars": 2,
+          "name": "Steps",
+          "start_bar": 0
+        },
+        {
+          "bars": 2,
+          "name": "Leap",
+          "start_bar": 2
+        },
+        {
+          "bars": 2,
+          "name": "Hold",
+          "start_bar": 4
+        },
+        {
+          "bars": 2,
+          "name": "Return",
+          "start_bar": 6
+        }
+      ],
+      "pitch_classes": [
+        0,
+        2,
+        4,
+        6,
+        7,
+        9,
+        11
+      ],
+      "requested_seconds": 22.325581395348838,
+      "seed": 8606,
+      "slug": "s06-step-and-leap",
+      "stochastic_draws": 0,
+      "tempo_us": 697674,
+      "title": "Step and Leap",
+      "tonal_reference": "E",
+      "tonic": "E",
+      "voicing": "Melody is monophonic. The leap is a single interval, not a chord."
+    },
+    {
+      "accent": "The pickup bar is the loudest stretch. The cadence eases off, then the last note peaks.",
+      "bar_ticks": 3840,
+      "bars": 8,
+      "bpm": 70,
+      "change_bars": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "changes": [
+        "Bb",
+        "Eb",
+        "F",
+        "Bb"
+      ],
+      "collection_name": "Bb major",
+      "departures": [],
+      "effective_bpm": 69.99998833333528,
+      "harmonic_rhythm": "Two bars each: Bb, Eb, F, Bb.",
+      "id": "s07",
+      "identity": "Half-note calls at 70 BPM, with a three-note pickup only once. Variation B breaks the holds into short notes around A and C.",
+      "layering": "The Eb and F shells are keys references.",
+      "limitations": "70 BPM is the slow end of this pack. The container is still 8 bars so the preview stays under 28 seconds.",
+      "meter": "4/4",
+      "phrases": [
+        {
+          "bars": 2,
+          "name": "Half",
+          "start_bar": 0
+        },
+        {
+          "bars": 2,
+          "name": "Color",
+          "start_bar": 2
+        },
+        {
+          "bars": 2,
+          "name": "Pickup",
+          "start_bar": 4
+        },
+        {
+          "bars": 2,
+          "name": "Cadence",
+          "start_bar": 6
+        }
+      ],
+      "pitch_classes": [
+        0,
+        2,
+        3,
+        5,
+        7,
+        9,
+        10
+      ],
+      "requested_seconds": 27.428571428571427,
+      "seed": 7007,
+      "slug": "s07-soft-cadence",
+      "stochastic_draws": 0,
+      "tempo_us": 857143,
+      "title": "Soft Cadence",
+      "tonal_reference": "Bb",
+      "tonic": "Bb",
+      "voicing": "Melody is monophonic from Bb3 to Bb5. Eb is a color tone, not a new key."
+    },
+    {
+      "accent": "The dense answer is louder than the isolated notes.",
+      "bar_ticks": 3840,
+      "bars": 8,
+      "bpm": 94,
+      "change_bars": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "changes": [
+        "Bm",
+        "G",
+        "A",
+        "Bm"
+      ],
+      "collection_name": "B natural minor",
+      "departures": [
+        "s08.melody.b pitch 68 is outside B natural minor and is flagged."
+      ],
+      "effective_bpm": 93.99998120000376,
+      "harmonic_rhythm": "Two bars each: Bm, G, A, Bm.",
+      "id": "s08",
+      "identity": "Two notes sit far apart, then one denser answer, then space. Variation B fills more of the bar and uses one flagged G#4.",
+      "layering": "G and A are reference chords in the gaps. They are not melody notes.",
+      "limitations": "G#4 is outside B natural minor. It is one note in variation B. 94 BPM is the fast end of this pack.",
+      "meter": "4/4",
+      "phrases": [
+        {
+          "bars": 2,
+          "name": "Gap",
+          "start_bar": 0
+        },
+        {
+          "bars": 2,
+          "name": "Single",
+          "start_bar": 2
+        },
+        {
+          "bars": 2,
+          "name": "Answer",
+          "start_bar": 4
+        },
+        {
+          "bars": 2,
+          "name": "Breath",
+          "start_bar": 6
+        }
+      ],
+      "pitch_classes": [
+        1,
+        2,
+        4,
+        6,
+        7,
+        9,
+        11
+      ],
+      "requested_seconds": 20.425531914893618,
+      "seed": 9408,
+      "slug": "s08-open-space",
+      "stochastic_draws": 0,
+      "tempo_us": 638298,
+      "title": "Open Space",
+      "tonal_reference": "B",
+      "tonic": "B",
+      "voicing": "Melody is monophonic from B3 to B5, with wide gaps."
+    }
+  ]
+}
