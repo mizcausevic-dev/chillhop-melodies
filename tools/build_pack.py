@@ -38,10 +38,10 @@ from tools.statements import (  # noqa: E402
 from tools.validate import dump_json, validate_tree, write_midi_files  # noqa: E402
 
 X_BODY = (
-    "Chillhop Melodies: 8 studies, concise motifs, a relaxed pocket, and melodic answers. "
-    "Two melody variations each, note-only MIDI, 70-95 BPM. Keys and bass stay separate. "
-    "Preview is a simple-synth render of study 01, not a master. "
-    "No listening audition was performed."
+    "Chillhop Melodies: Second Sixteenth, variation A, 8 bars at 78 BPM. "
+    "MP3 24.660 seconds. Melody plus keys and bass references, not the full pack. "
+    "preview, not a master. "
+    "No human listening audition was performed for this build."
 )
 
 
@@ -184,7 +184,7 @@ This file is a draft. It has not been posted.
 
 Caption
 
-Chillhop Melodies. Eight 8-bar studies of concise motifs, with a relaxed pocket and melodic answers. Two melody variations each, note-only MIDI between 70 and 95 BPM. Keys and bass references are separate files. The audio preview is a simple-synth render of study 01, not a master. No listening audition was performed for this build.
+Chillhop Melodies. The preview is Second Sixteenth, variation A, 8 bars at 78 BPM. The MP3 is 24.660 seconds. It is the melody plus the keys reference and the bass reference, not the full pack. Eight studies, two melody variations each, note-only MIDI from 70 to 95 BPM. Keys and bass stay labeled and separate. preview, not a master. No human listening audition was performed for this build.
 
 Hashtags
 

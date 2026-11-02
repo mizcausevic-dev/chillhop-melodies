@@ -2,4 +2,4 @@ DRAFT
 This label is not the post body.
 
 POST BODY
-Chillhop Melodies: 8 studies, concise motifs, a relaxed pocket, and melodic answers. Two melody variations each, note-only MIDI, 70-95 BPM. Keys and bass stay separate. Preview is a simple-synth render of study 01, not a master. No listening audition was performed.
+Chillhop Melodies: Second Sixteenth, variation A, 8 bars at 78 BPM. MP3 24.660 seconds. Melody plus keys and bass references, not the full pack. preview, not a master. No human listening audition was performed for this build.

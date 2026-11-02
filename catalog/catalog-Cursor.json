@@ -469,7 +469,7 @@
       "core": false,
       "id": "s06.bass.a",
       "monophonic": true,
-      "notes": 16,
+      "notes": 24,
       "path": "midi/s06-step-and-leap/bass-a.mid",
       "role": "bass-reference",
       "study_id": "s06",
@@ -698,16 +698,16 @@
         2
       ],
       "changes": [
-        "Dm",
+        "Dm7",
         "G",
-        "Dm"
+        "Dm7"
       ],
       "collection_name": "D dorian",
       "departures": [],
       "effective_bpm": 77.99997660000702,
-      "harmonic_rhythm": "Four bars of Dm, two of G, two of Dm.",
+      "harmonic_rhythm": "Four bars of Dm7, two of G, two of Dm7.",
       "id": "s01",
-      "identity": "The call starts a sixteenth late and answers a third higher. Variation B moves onto the downbeat, shortens the attacks, and sits lower.",
+      "identity": "The call starts a sixteenth late. Bar 2 tops a minor third lower, at G5. The later answer starts a fifth higher, on A5. Variation B moves onto the downbeat, shortens the attacks, and sits lower.",
       "layering": "Keys and bass are reference files. They are not written into the melody file.",
       "limitations": "Pair melody A with keys A and bass A. The late sixteenth is the pocket. It is not a random offset.",
       "meter": "4/4",
@@ -719,7 +719,7 @@
         },
         {
           "bars": 2,
-          "name": "Third",
+          "name": "Reply",
           "start_bar": 2
         },
         {
@@ -750,7 +750,7 @@
       "title": "Second Sixteenth",
       "tonal_reference": "D",
       "tonic": "D",
-      "voicing": "Melody is one note at a time, from D4 up to B5."
+      "voicing": "Melody is one note at a time, from D4 up to B5. Keys A is Dm7: D, F, A, C. Keys B on those bars keeps D, F, and C."
     },
     {
       "accent": "The same eight-bar velocity ladder as the other studies.",
@@ -870,7 +870,6 @@
       "pitch_classes": [
         0,
         2,
-        3,
         4,
         5,
         7,
@@ -1114,14 +1113,14 @@
       "effective_bpm": 69.99998833333528,
       "harmonic_rhythm": "Two bars each: Bb, Eb, F, Bb.",
       "id": "s07",
-      "identity": "Half-note calls at 70 BPM, with a three-note pickup only once. Variation B breaks the holds into short notes around A and C.",
+      "identity": "The opening calls are dotted quarters at 70 BPM. Bar 2 is a half note. A three-note pickup happens only once. Variation B breaks those holds into short notes around A and C.",
       "layering": "The Eb and F shells are keys references.",
       "limitations": "70 BPM is the slow end of this pack. The container is still 8 bars so the preview stays under 28 seconds.",
       "meter": "4/4",
       "phrases": [
         {
           "bars": 2,
-          "name": "Half",
+          "name": "Call",
           "start_bar": 0
         },
         {

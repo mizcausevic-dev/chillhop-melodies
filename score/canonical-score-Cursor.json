@@ -924,7 +924,7 @@
           "nominal_start": 960,
           "offset": 0,
           "performed_start": 960,
-          "pitch": 57,
+          "pitch": 60,
           "velocity": 54
         },
         {
@@ -935,7 +935,7 @@
           "nominal_start": 960,
           "offset": 0,
           "performed_start": 960,
-          "pitch": 60,
+          "pitch": 65,
           "velocity": 54
         },
         {
@@ -957,7 +957,7 @@
           "nominal_start": 4800,
           "offset": 0,
           "performed_start": 4800,
-          "pitch": 57,
+          "pitch": 60,
           "velocity": 54
         },
         {
@@ -968,7 +968,7 @@
           "nominal_start": 4800,
           "offset": 0,
           "performed_start": 4800,
-          "pitch": 60,
+          "pitch": 65,
           "velocity": 54
         },
         {
@@ -990,7 +990,7 @@
           "nominal_start": 8640,
           "offset": 0,
           "performed_start": 8640,
-          "pitch": 57,
+          "pitch": 60,
           "velocity": 54
         },
         {
@@ -1001,7 +1001,7 @@
           "nominal_start": 8640,
           "offset": 0,
           "performed_start": 8640,
-          "pitch": 60,
+          "pitch": 65,
           "velocity": 54
         },
         {
@@ -1023,7 +1023,7 @@
           "nominal_start": 12480,
           "offset": 0,
           "performed_start": 12480,
-          "pitch": 57,
+          "pitch": 60,
           "velocity": 54
         },
         {
@@ -1034,7 +1034,7 @@
           "nominal_start": 12480,
           "offset": 0,
           "performed_start": 12480,
-          "pitch": 60,
+          "pitch": 65,
           "velocity": 54
         },
         {
@@ -1122,7 +1122,7 @@
           "nominal_start": 24000,
           "offset": 0,
           "performed_start": 24000,
-          "pitch": 57,
+          "pitch": 60,
           "velocity": 54
         },
         {
@@ -1133,7 +1133,7 @@
           "nominal_start": 24000,
           "offset": 0,
           "performed_start": 24000,
-          "pitch": 60,
+          "pitch": 65,
           "velocity": 54
         },
         {
@@ -1155,7 +1155,7 @@
           "nominal_start": 27840,
           "offset": 0,
           "performed_start": 27840,
-          "pitch": 57,
+          "pitch": 60,
           "velocity": 54
         },
         {
@@ -1166,7 +1166,7 @@
           "nominal_start": 27840,
           "offset": 0,
           "performed_start": 27840,
-          "pitch": 60,
+          "pitch": 65,
           "velocity": 54
         }
       ],
@@ -5435,7 +5435,7 @@
         {
           "channel": 0,
           "departure": false,
-          "duration": 960,
+          "duration": 360,
           "id": "s05.melody.a.n0005",
           "nominal_start": 5280,
           "offset": 0,
@@ -7193,178 +7193,266 @@
         {
           "channel": 2,
           "departure": false,
-          "duration": 720,
+          "duration": 480,
           "id": "s06.bass.a.n0001",
-          "nominal_start": 0,
+          "nominal_start": 960,
           "offset": 0,
-          "performed_start": 0,
+          "performed_start": 960,
           "pitch": 40,
-          "velocity": 86
+          "velocity": 74
         },
         {
           "channel": 2,
           "departure": false,
-          "duration": 480,
+          "duration": 240,
           "id": "s06.bass.a.n0002",
           "nominal_start": 1920,
           "offset": 0,
           "performed_start": 1920,
-          "pitch": 40,
-          "velocity": 68
+          "pitch": 47,
+          "velocity": 90
         },
         {
           "channel": 2,
           "departure": false,
           "duration": 720,
           "id": "s06.bass.a.n0003",
-          "nominal_start": 3840,
+          "nominal_start": 2880,
           "offset": 0,
-          "performed_start": 3840,
+          "performed_start": 2880,
           "pitch": 40,
-          "velocity": 86
+          "velocity": 60
         },
         {
           "channel": 2,
           "departure": false,
           "duration": 480,
           "id": "s06.bass.a.n0004",
+          "nominal_start": 4800,
+          "offset": 0,
+          "performed_start": 4800,
+          "pitch": 40,
+          "velocity": 74
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 240,
+          "id": "s06.bass.a.n0005",
           "nominal_start": 5760,
           "offset": 0,
           "performed_start": 5760,
-          "pitch": 40,
-          "velocity": 68
+          "pitch": 47,
+          "velocity": 90
         },
         {
           "channel": 2,
           "departure": false,
           "duration": 720,
-          "id": "s06.bass.a.n0005",
-          "nominal_start": 7680,
+          "id": "s06.bass.a.n0006",
+          "nominal_start": 6720,
           "offset": 0,
-          "performed_start": 7680,
-          "pitch": 48,
-          "velocity": 86
+          "performed_start": 6720,
+          "pitch": 40,
+          "velocity": 60
         },
         {
           "channel": 2,
           "departure": false,
           "duration": 480,
-          "id": "s06.bass.a.n0006",
+          "id": "s06.bass.a.n0007",
+          "nominal_start": 8640,
+          "offset": 0,
+          "performed_start": 8640,
+          "pitch": 48,
+          "velocity": 74
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 240,
+          "id": "s06.bass.a.n0008",
           "nominal_start": 9600,
           "offset": 0,
           "performed_start": 9600,
-          "pitch": 48,
-          "velocity": 68
-        },
-        {
-          "channel": 2,
-          "departure": false,
-          "duration": 720,
-          "id": "s06.bass.a.n0007",
-          "nominal_start": 11520,
-          "offset": 0,
-          "performed_start": 11520,
-          "pitch": 48,
-          "velocity": 86
-        },
-        {
-          "channel": 2,
-          "departure": false,
-          "duration": 480,
-          "id": "s06.bass.a.n0008",
-          "nominal_start": 13440,
-          "offset": 0,
-          "performed_start": 13440,
-          "pitch": 48,
-          "velocity": 68
+          "pitch": 43,
+          "velocity": 90
         },
         {
           "channel": 2,
           "departure": false,
           "duration": 720,
           "id": "s06.bass.a.n0009",
-          "nominal_start": 15360,
+          "nominal_start": 10560,
           "offset": 0,
-          "performed_start": 15360,
-          "pitch": 43,
-          "velocity": 86
+          "performed_start": 10560,
+          "pitch": 48,
+          "velocity": 60
         },
         {
           "channel": 2,
           "departure": false,
           "duration": 480,
           "id": "s06.bass.a.n0010",
+          "nominal_start": 12480,
+          "offset": 0,
+          "performed_start": 12480,
+          "pitch": 48,
+          "velocity": 74
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 240,
+          "id": "s06.bass.a.n0011",
+          "nominal_start": 13440,
+          "offset": 0,
+          "performed_start": 13440,
+          "pitch": 43,
+          "velocity": 90
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 720,
+          "id": "s06.bass.a.n0012",
+          "nominal_start": 14400,
+          "offset": 0,
+          "performed_start": 14400,
+          "pitch": 48,
+          "velocity": 60
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 480,
+          "id": "s06.bass.a.n0013",
+          "nominal_start": 16320,
+          "offset": 0,
+          "performed_start": 16320,
+          "pitch": 43,
+          "velocity": 74
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 240,
+          "id": "s06.bass.a.n0014",
           "nominal_start": 17280,
           "offset": 0,
           "performed_start": 17280,
-          "pitch": 43,
-          "velocity": 68
-        },
-        {
-          "channel": 2,
-          "departure": false,
-          "duration": 720,
-          "id": "s06.bass.a.n0011",
-          "nominal_start": 19200,
-          "offset": 0,
-          "performed_start": 19200,
-          "pitch": 43,
-          "velocity": 86
-        },
-        {
-          "channel": 2,
-          "departure": false,
-          "duration": 480,
-          "id": "s06.bass.a.n0012",
-          "nominal_start": 21120,
-          "offset": 0,
-          "performed_start": 21120,
-          "pitch": 43,
-          "velocity": 68
-        },
-        {
-          "channel": 2,
-          "departure": false,
-          "duration": 720,
-          "id": "s06.bass.a.n0013",
-          "nominal_start": 23040,
-          "offset": 0,
-          "performed_start": 23040,
-          "pitch": 40,
-          "velocity": 86
-        },
-        {
-          "channel": 2,
-          "departure": false,
-          "duration": 480,
-          "id": "s06.bass.a.n0014",
-          "nominal_start": 24960,
-          "offset": 0,
-          "performed_start": 24960,
-          "pitch": 40,
-          "velocity": 68
+          "pitch": 50,
+          "velocity": 90
         },
         {
           "channel": 2,
           "departure": false,
           "duration": 720,
           "id": "s06.bass.a.n0015",
-          "nominal_start": 26880,
+          "nominal_start": 18240,
           "offset": 0,
-          "performed_start": 26880,
-          "pitch": 40,
-          "velocity": 86
+          "performed_start": 18240,
+          "pitch": 43,
+          "velocity": 60
         },
         {
           "channel": 2,
           "departure": false,
           "duration": 480,
           "id": "s06.bass.a.n0016",
+          "nominal_start": 20160,
+          "offset": 0,
+          "performed_start": 20160,
+          "pitch": 43,
+          "velocity": 74
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 240,
+          "id": "s06.bass.a.n0017",
+          "nominal_start": 21120,
+          "offset": 0,
+          "performed_start": 21120,
+          "pitch": 50,
+          "velocity": 90
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 720,
+          "id": "s06.bass.a.n0018",
+          "nominal_start": 22080,
+          "offset": 0,
+          "performed_start": 22080,
+          "pitch": 43,
+          "velocity": 60
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 480,
+          "id": "s06.bass.a.n0019",
+          "nominal_start": 24000,
+          "offset": 0,
+          "performed_start": 24000,
+          "pitch": 40,
+          "velocity": 74
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 240,
+          "id": "s06.bass.a.n0020",
+          "nominal_start": 24960,
+          "offset": 0,
+          "performed_start": 24960,
+          "pitch": 47,
+          "velocity": 90
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 720,
+          "id": "s06.bass.a.n0021",
+          "nominal_start": 25920,
+          "offset": 0,
+          "performed_start": 25920,
+          "pitch": 40,
+          "velocity": 60
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 480,
+          "id": "s06.bass.a.n0022",
+          "nominal_start": 27840,
+          "offset": 0,
+          "performed_start": 27840,
+          "pitch": 40,
+          "velocity": 74
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 240,
+          "id": "s06.bass.a.n0023",
           "nominal_start": 28800,
           "offset": 0,
           "performed_start": 28800,
+          "pitch": 47,
+          "velocity": 90
+        },
+        {
+          "channel": 2,
+          "departure": false,
+          "duration": 720,
+          "id": "s06.bass.a.n0024",
+          "nominal_start": 29760,
+          "offset": 0,
+          "performed_start": 29760,
           "pitch": 40,
-          "velocity": 68
+          "velocity": 60
         }
       ],
       "path": "midi/s06-step-and-leap/bass-a.mid",
@@ -8495,178 +8583,178 @@
         {
           "channel": 2,
           "departure": false,
-          "duration": 720,
+          "duration": 1440,
           "id": "s07.bass.a.n0001",
           "nominal_start": 0,
           "offset": 0,
           "performed_start": 0,
           "pitch": 34,
-          "velocity": 86
+          "velocity": 72
         },
         {
           "channel": 2,
           "departure": false,
-          "duration": 480,
+          "duration": 960,
           "id": "s07.bass.a.n0002",
-          "nominal_start": 1920,
+          "nominal_start": 2400,
           "offset": 0,
-          "performed_start": 1920,
-          "pitch": 34,
-          "velocity": 68
+          "performed_start": 2400,
+          "pitch": 41,
+          "velocity": 80
         },
         {
           "channel": 2,
           "departure": false,
-          "duration": 720,
+          "duration": 1440,
           "id": "s07.bass.a.n0003",
           "nominal_start": 3840,
           "offset": 0,
           "performed_start": 3840,
           "pitch": 34,
-          "velocity": 86
+          "velocity": 72
         },
         {
           "channel": 2,
           "departure": false,
-          "duration": 480,
+          "duration": 960,
           "id": "s07.bass.a.n0004",
-          "nominal_start": 5760,
+          "nominal_start": 6240,
           "offset": 0,
-          "performed_start": 5760,
-          "pitch": 34,
-          "velocity": 68
+          "performed_start": 6240,
+          "pitch": 41,
+          "velocity": 80
         },
         {
           "channel": 2,
           "departure": false,
-          "duration": 720,
+          "duration": 1440,
           "id": "s07.bass.a.n0005",
           "nominal_start": 7680,
           "offset": 0,
           "performed_start": 7680,
           "pitch": 39,
-          "velocity": 86
+          "velocity": 72
         },
         {
           "channel": 2,
           "departure": false,
-          "duration": 480,
+          "duration": 960,
           "id": "s07.bass.a.n0006",
-          "nominal_start": 9600,
+          "nominal_start": 10080,
           "offset": 0,
-          "performed_start": 9600,
-          "pitch": 39,
-          "velocity": 68
+          "performed_start": 10080,
+          "pitch": 46,
+          "velocity": 80
         },
         {
           "channel": 2,
           "departure": false,
-          "duration": 720,
+          "duration": 1440,
           "id": "s07.bass.a.n0007",
           "nominal_start": 11520,
           "offset": 0,
           "performed_start": 11520,
           "pitch": 39,
-          "velocity": 86
+          "velocity": 72
         },
         {
           "channel": 2,
           "departure": false,
-          "duration": 480,
+          "duration": 960,
           "id": "s07.bass.a.n0008",
-          "nominal_start": 13440,
+          "nominal_start": 13920,
           "offset": 0,
-          "performed_start": 13440,
-          "pitch": 39,
-          "velocity": 68
+          "performed_start": 13920,
+          "pitch": 46,
+          "velocity": 80
         },
         {
           "channel": 2,
           "departure": false,
-          "duration": 720,
+          "duration": 1440,
           "id": "s07.bass.a.n0009",
           "nominal_start": 15360,
           "offset": 0,
           "performed_start": 15360,
           "pitch": 41,
-          "velocity": 86
+          "velocity": 72
         },
         {
           "channel": 2,
           "departure": false,
-          "duration": 480,
+          "duration": 960,
           "id": "s07.bass.a.n0010",
-          "nominal_start": 17280,
+          "nominal_start": 17760,
           "offset": 0,
-          "performed_start": 17280,
-          "pitch": 41,
-          "velocity": 68
+          "performed_start": 17760,
+          "pitch": 48,
+          "velocity": 80
         },
         {
           "channel": 2,
           "departure": false,
-          "duration": 720,
+          "duration": 1440,
           "id": "s07.bass.a.n0011",
           "nominal_start": 19200,
           "offset": 0,
           "performed_start": 19200,
           "pitch": 41,
-          "velocity": 86
+          "velocity": 72
         },
         {
           "channel": 2,
           "departure": false,
-          "duration": 480,
+          "duration": 960,
           "id": "s07.bass.a.n0012",
-          "nominal_start": 21120,
+          "nominal_start": 21600,
           "offset": 0,
-          "performed_start": 21120,
-          "pitch": 41,
-          "velocity": 68
+          "performed_start": 21600,
+          "pitch": 48,
+          "velocity": 80
         },
         {
           "channel": 2,
           "departure": false,
-          "duration": 720,
+          "duration": 1440,
           "id": "s07.bass.a.n0013",
           "nominal_start": 23040,
           "offset": 0,
           "performed_start": 23040,
           "pitch": 34,
-          "velocity": 86
+          "velocity": 72
         },
         {
           "channel": 2,
           "departure": false,
-          "duration": 480,
+          "duration": 960,
           "id": "s07.bass.a.n0014",
-          "nominal_start": 24960,
+          "nominal_start": 25440,
           "offset": 0,
-          "performed_start": 24960,
-          "pitch": 34,
-          "velocity": 68
+          "performed_start": 25440,
+          "pitch": 41,
+          "velocity": 80
         },
         {
           "channel": 2,
           "departure": false,
-          "duration": 720,
+          "duration": 1440,
           "id": "s07.bass.a.n0015",
           "nominal_start": 26880,
           "offset": 0,
           "performed_start": 26880,
           "pitch": 34,
-          "velocity": 86
+          "velocity": 72
         },
         {
           "channel": 2,
           "departure": false,
-          "duration": 480,
+          "duration": 960,
           "id": "s07.bass.a.n0016",
-          "nominal_start": 28800,
+          "nominal_start": 29280,
           "offset": 0,
-          "performed_start": 28800,
-          "pitch": 34,
-          "velocity": 68
+          "performed_start": 29280,
+          "pitch": 41,
+          "velocity": 80
         }
       ],
       "path": "midi/s07-soft-cadence/bass-a.mid",
