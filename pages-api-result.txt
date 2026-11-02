@@ -1,9 +1,11 @@
-topics
-{"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/repos/repos#replace-all-repository-topics","status":"403"}gh: Resource not accessible by integration (HTTP 403)
-topics_exit:1
+admin_set:yes
+pat_set:yes
 post
 {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/pages/pages#create-a-apiname-pages-site","status":"403"}gh: Resource not accessible by integration (HTTP 403)
 post_exit:1
 put
 {"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/pages/pages#update-information-about-a-apiname-pages-site","status":"403"}gh: Resource not accessible by integration (HTTP 403)
 put_exit:1
+topics
+{"message":"Resource not accessible by integration","documentation_url":"https://docs.github.com/rest/repos/repos#replace-all-repository-topics","status":"403"}gh: Resource not accessible by integration (HTTP 403)
+topics_exit:1
